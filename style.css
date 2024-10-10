@@ -1,0 +1,46 @@
+body{
+   background-image: url(Images/Stars.jpg);
+   text-align: center;
+   margin: auto;
+   color: cornsilk;
+}
+
+h1{
+    margin-left : auto;
+    margin-right: auto;
+    color: cornsilk;
+    background-color: cadetblue;
+    max-width: 300px;
+    max-height: auto;
+    text-shadow: pink 2px 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: pink 5px 5px;
+}
+
+
+.question > a{
+   display: inline-block;
+   text-decoration: none;
+}
+
+.right:hover{
+    background-color: rgb(14, 148, 9);
+}
+
+.wrong:hover{
+background-color: red;
+}
+
+.bod{
+    padding: 15px;
+    background-color: black;
+    margin: auto;
+    max-width: 900px;
+    height: auto;
+}
+
+.bod > img{
+    width: 100%;
+    height: auto;
+}
